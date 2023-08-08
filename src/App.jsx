@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
+import Landing from "./components/Landing";
 import "./App.css";
 
 function App() {
   return (
     <>
       <Navbar />
-    <h1 className="text-3xl font-bold">
-      Tes Ghalaya
-    </h1>
+      <Landing />
+      <h1 className="text-3xl font-bold">Hmmm</h1>
     </>
   );
 }
