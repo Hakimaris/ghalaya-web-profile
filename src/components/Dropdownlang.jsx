@@ -9,7 +9,7 @@ const Dropdownlang = () => {
 
   return (
     <div className="relative">
-      <button onClick={toggleDropdown} className="class="md:hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center>
+      <button onMouseOver={toggleDropdown} className="class="md:hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center>
         Dropdown
       </button>
 
