@@ -2,41 +2,28 @@ import React from "react";
 
 const LandingVisionMission = () => {
   return (
-    <div>
-      <div className="grid grid-cols-3">
-        <div className="col-span-2 ...">
-          <div class="relative overflow-x-auto shadow-md sm:rounded-lg px-4">
-            <table class="w-full text-sm text-left">
-              <thead class="text-2xl text-center">
-                <tr>
-                  <th scope="col" class="px-6 py-3 ">
-                    Visi
-                  </th>
-                  <th scope="col" class="px-6 py-3">
-                    Misi
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="">
-                  <th
-                    scope="row"
-                    class="px-6 py-4 font-xl text-gray-900 whitespace-nowrap text-center"
-                  >
-                    Ya ya ya
-                  </th>
-                  <th class="px-6 py-4 font-xl text-gray-900 whitespace-nowrap text-center">
-                    lalala
-                  </th>
-                </tr>
-              </tbody>
-            </table>
+    <div className="py-8">
+      <div className="grid grid-cols-7">
+        <div className="col-span-4 ...">
+          <div className="grid grid-cols-2 ps-8">
+            <div className="text-center">
+              <h1 className="font-bold text-2xl"> Visi </h1>
+              <p className="py-1">
+                Menjadikan PT. GHALAYA ABADI PERSADA LINE sebagai perusahaan
+                Pelayaran dan Angkutan Laut yang terbaik dan terpercaya.
+              </p>
+            </div>
+            <div className="text-center">
+              <h1 className="font-bold text-2xl"> Misi </h1>
+              <p className="py-1">
+                Selalu memberikan solusi di bidang Pelayaran dan Angkatan Laut
+                yang bermutu dan berkualitas tinggi secara efektif dan efisien
+              </p>
+            </div>
           </div>
         </div>
-        <div className="... p-4">
-          <h1 class="text-4xl font-bold text-center object-center">
-            Tentang Kami
-          </h1>
+        <div className="col-span-3 text-center object-center ...">
+          <h1 class="text-4xl font-bold">Tentang Kami</h1>
         </div>
       </div>
     </div>

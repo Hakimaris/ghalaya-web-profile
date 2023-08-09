@@ -2,15 +2,15 @@ import React from "react";
 
 const LandingMain = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 py-8">
-      <div className="ps-8">
+    <div className="grid grid-cols-5 gap-4 py-8">
+      <div className="col-span-3 ps-8">
         <div>
-          <h1 className="font-bold text-4xl py-6">
+          <h1 className="font-bold text-5xl py-6">
             Solusi Logistik <br />
             Terpercaya
           </h1>
         </div>
-        <div className="border-l-8 border-blue-950 text-xl px-5">
+        <div className="border-l-8 border-blue-950 text-2xl px-5">
           <p>
             <span className="font-bold"> PT ABCDEFGH</span> adalah perusahaan swasta yang bergerak di
             bidang pelayaran sumber daya hidup dan telah dipercayai oleh
@@ -26,7 +26,7 @@ const LandingMain = () => {
           </button>
         </div>
       </div>
-      <div className=" inset-0 flex w-full h-full">
+      <div className="col-span-2 inset-0 flex w-full h-full">
         <div className="h-9/12 w-96">
           <img
             className="inset-0 w-full h-full object-cover object-center"
