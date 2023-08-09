@@ -2,7 +2,7 @@ import React from "react";
 
 const LandingMain = () => {
   return (
-    <div className="grid grid-cols-5 gap-4 py-8">
+    <div className="grid grid-cols-5 gap-4 py-8 px-14">
       <div className="col-span-3 ps-8">
         <div>
           <h1 className="font-bold text-5xl py-6">

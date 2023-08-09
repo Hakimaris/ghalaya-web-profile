@@ -4,8 +4,11 @@ const LandingVisionMission = () => {
   return (
     <div className="py-8">
       <div className="grid grid-cols-7">
+
         <div className="col-span-4 ...">
+
           <div className="grid grid-cols-2 ps-8">
+
             <div className="text-center">
               <h1 className="font-bold text-2xl"> Visi </h1>
               <p className="py-1">
@@ -13,6 +16,7 @@ const LandingVisionMission = () => {
                 Pelayaran dan Angkutan Laut yang terbaik dan terpercaya.
               </p>
             </div>
+
             <div className="text-center">
               <h1 className="font-bold text-2xl"> Misi </h1>
               <p className="py-1">
@@ -20,10 +24,13 @@ const LandingVisionMission = () => {
                 yang bermutu dan berkualitas tinggi secara efektif dan efisien
               </p>
             </div>
+
           </div>
+
         </div>
+
         <div className="col-span-3 text-center object-center ...">
-          <h1 class="text-4xl font-bold">Tentang Kami</h1>
+          <h1 className="text-4xl font-bold">Tentang Kami</h1>
         </div>
       </div>
     </div>
