@@ -28,7 +28,7 @@ const LandingService = () => {
         </div>
         <div className="bg-blue-500 border border-red-500 rounded-md p-6">
           <h1 className="text-xl font-bold pb-3 text-center">Service 1</h1>
-          <p className="text-center">Kami menyiapkan Kami menyiapkan </p>
+          <p className="text-center">Kami menyiapkan Kami menyiapkan Kami menyiapkan Kami menyiapkan Kami menyiapkan Kami menyiapkan</p>
         </div>
       </div>
 
