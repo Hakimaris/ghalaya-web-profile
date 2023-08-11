@@ -45,6 +45,11 @@ const Navbar = () => {
           <li className="p-4 border-b-2 border-red-800 border-opacity-0 hover:border-opacity-100 hover:text-red-800 duration-200 cursor-pointer">
             <a href="">Kontak</a>
           </li>
+          {/* <li>
+            <div className="w-3/12 flex justify-end">
+              <Dropdownlang />
+            </div>
+          </li> */}
         </ul>
       </nav>
       
