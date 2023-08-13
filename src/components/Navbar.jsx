@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Dropdownlang from "./Dropdownlang";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 const Navbar = () => {
   return (
@@ -55,7 +56,7 @@ const Navbar = () => {
             />
           </g>
         </svg>
-        <a className="btn btn-ghost normal-case font-bold text-left lg:text-xl">
+        <a className="normal-case font-bold text-left lg:text-xl">
           PT. Ghalaya <br></br>Abadipersada Line
         </a>
       </div>
@@ -73,14 +74,13 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <div className="dropdown dropdown-hover normal-case">
-          <label tabIndex={0} className="btn m-1">
-            Bahasa
+        <div className="dropdown dropdown-hover">
+          <label tabIndex={0} className="btn">
+            Bahasa <ChevronDownIcon className="h-5"/>
           </label>
           <ul
             tabIndex={0}
-            className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
-          >
+            className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box">
             <li>
               <a>Item 1</a>
             </li>
