@@ -14,6 +14,7 @@ export default {
           warning: "#fbbd23",
           error: "#f87272",
         },
+       
       },
     ],
   },

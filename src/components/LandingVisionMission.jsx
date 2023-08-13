@@ -9,7 +9,7 @@ const LandingVisionMission = () => {
           <div className="border-b border-blue-950 pb-2">
             <h1 className="font-bold text-xl text-center"> Visi </h1>
             <p className="py-1 text-justify">
-              Menjadikan PT. GHALAYA ABADI PERSADA LINE sebagai perusahaan
+              Menjadikan <span className="font-bold">PT. GHALAYA ABADIPERSADA LINE</span> sebagai perusahaan
               Pelayaran dan Angkutan Laut yang terbaik dan terpercaya.
             </p>
           </div>
