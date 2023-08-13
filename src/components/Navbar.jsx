@@ -80,7 +80,12 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
+<<<<<<< HEAD
             className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box">
+=======
+            className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box"
+          >
+>>>>>>> ed98c9ccfac5d254eb55a4cfaad863bb3907e2fa
             <li>
               <a>Item 1</a>
             </li>
