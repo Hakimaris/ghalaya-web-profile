@@ -10,7 +10,7 @@ const LandingClient = () => {
       <div className="flex flex-wrap justify-center items-center gap-7 py-9">
         <img src="src\assets\PLN.png" alt="PLN" />
         <img src="src\assets\PLNnusantarapower.png" alt="PLN nusantara" />
-        <img src="src\assets\PJB.png" alt="PJB" />
+        <img src="src\assets\PLNpersero.png" className="h-28 w-20" alt="PLN Persero" />
         <img src="src\assets\Pertamina.png" alt="Pertamina" />
       </div>
     </div>

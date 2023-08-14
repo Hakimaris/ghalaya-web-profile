@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const LandingMain = () => {
+  const [t,i18n] = useTranslation("global")
   return (
     <div>
       <div className="md:flex md:flex-row-reverse lg:hidden px-5">
@@ -13,7 +15,7 @@ const LandingMain = () => {
         </div>
         <div className="md:flex-grow md:px-8">
           <h1 className="font-bold text-center text-2xl py-6">
-            Solusi Angkutan Laut Terpercaya
+            {t("landingMain.headerMobile")}
           </h1>
           <div className="border-l-8 text-justify border-blue-950 px-5">
             <p>

@@ -23,12 +23,12 @@ const LandingContact1 = () => {
         </div>
         <div className="md:w-1/2 mt-4 md:mt-0">
           <ul>
-            <li className="pb-4 space-x-5 px-6 flex items-center">
+            {/* <li className="pb-4 space-x-5 px-6 flex items-center">
               <FaWhatsapp className="h-8 w-8" />
               <a href="#" className="font-semibold ml-2">
                 Contact Me
               </a>
-            </li>
+            </li> */}
             <li className="pb-4 space-x-5 px-6 flex items-center">
               <FiMail className="h-8 w-8" />
               <a href="#" className="font-semibold ml-2">
