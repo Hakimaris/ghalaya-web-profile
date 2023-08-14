@@ -21,7 +21,7 @@ function App() {
       <LandingCert />
       <LandingContact1 />
       
-      <LandingContact2 />
+      {/* <LandingContact2 /> */}
       <h1 className="text-3xl font-bold">Hmmm</h1>
       <LandingFooter />
       

@@ -13,7 +13,7 @@ const LandingMain = () => {
         </div>
         <div className="md:flex-grow md:px-8">
           <h1 className="font-bold text-center text-2xl py-6">
-            Solusi Logistik Terpercaya
+            Solusi Angkutan Laut Terpercaya
           </h1>
           <div className="border-l-8 text-justify border-blue-950 px-5">
             <p>
