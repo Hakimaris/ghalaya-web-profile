@@ -2,7 +2,7 @@ import React from "react";
 
 const LandingClient = () => {
   return (
-    <div className="m-6">
+    <div className="m-6 pt-2">
       <div className="text-center">
         <h1 className="text-3xl font-bold">Telah dipercayai oleh</h1>
       </div>

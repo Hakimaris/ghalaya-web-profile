@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 const LandingMain = () => {
-  const [t,i18n] = useTranslation("global")
+  const [t, i18n] = useTranslation("global");
   return (
     <div>
       <div className="md:flex md:flex-row-reverse lg:hidden px-5">
@@ -20,9 +20,9 @@ const LandingMain = () => {
           <div className="border-l-8 text-justify border-blue-950 px-5">
             <p>
               <span className="font-bold"> PT. Ghalaya Abadipersada Line</span>{" "}
-              adalah perusahaan swasta yang bergerak di bidang pelayaran sumber
-              daya tambang dan telah dipercayai oleh berbagai perusahaan ternama{" "}
-              <span className="font-bold">sejak tahun 1992</span>.
+              adalah perusahaan swasta yang bergerak di bidang jasa jngkutan
+              laut di Surabaya dan telah dipercayai oleh berbagai perusahaan
+              ternama <span className="font-bold">sejak tahun 1992</span>
             </p>
           </div>
           <div className="pt-8 pb-2 text-center">
@@ -48,10 +48,9 @@ const LandingMain = () => {
                   {" "}
                   PT. Ghalaya Abadipersada Line
                 </span>{" "}
-                adalah perusahaan swasta yang bergerak di bidang pelayaran
-                sumber daya tambang dan telah dipercayai oleh berbagai
-                perusahaan ternama <span className="font-bold">sejak tahun 1992</span>
-                .
+                adalah perusahaan swasta yang bergerak di bidang jasa angkutan
+                laut di Surabaya dan telah dipercayai oleh berbagai perusahaan
+                ternama <span className="font-bold">sejak tahun 1992</span>
               </p>
             </div>
             <div className="pt-8 pb-2">
@@ -65,11 +64,66 @@ const LandingMain = () => {
           </div>
           <div className="col-span-2">
             <div className="h-9/12 w-96">
-              <img
-                className="w-full h-full object-cover object-center"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Square-white.svg/2048px-Square-white.svg.png"
-                alt="Image"
-              />
+              <div className="">
+                <div className="carousel w-full">
+                  <div id="slide1" className="carousel-item relative w-full">
+                    <img
+                      src="./src/assets/armada/kapal1.jpeg"
+                      className="w-full"
+                    />
+                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide4" className="btn btn-circle">
+                        ❮
+                      </a>
+                      <a href="#slide2" className="btn btn-circle">
+                        ❯
+                      </a>
+                    </div>
+                  </div>
+                  <div id="slide2" className="carousel-item relative w-full">
+                    <img
+                      src="./src/assets/armada/kapal2.jpeg"
+                      className="w-full"
+                    />
+                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide1" className="btn btn-circle">
+                        ❮
+                      </a>
+                      <a href="#slide3" className="btn btn-circle">
+                        ❯
+                      </a>
+                    </div>
+                  </div>
+                  <div id="slide3" className="carousel-item relative w-full">
+                    <img
+                      src="./src/assets/armada/kapal3.jpeg"
+                      className="w-full"
+                    />
+                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide2" className="btn btn-circle">
+                        ❮
+                      </a>
+                      <a href="#slide4" className="btn btn-circle">
+                        ❯
+                      </a>
+                    </div>
+                  </div>
+                  <div id="slide4" className="carousel-item relative w-full">
+                    <img
+                      src="./src/assets/armada/kapal1.jpeg"
+                      className="w-full"
+                    />
+                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide3" className="btn btn-circle">
+                        ❮
+                      </a>
+                      <a href="#slide1" className="btn btn-circle">
+                        ❯
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
