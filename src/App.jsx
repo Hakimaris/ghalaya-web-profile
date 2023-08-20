@@ -6,12 +6,11 @@ import LandingService from "./components/LandingService";
 import LandingFooter from "./components/LandingFooter";
 import LandingClient from "./components/LandingClient";
 import LandingContact1 from "./components/LandingContact1";
-
 import LandingContact2 from "./components/LandingContact2";
-
-import "./App.css";
 import LandingCert from "./components/LandingCert";
 import LandingPhoto from "./components/LandingPhoto";
+import LandingForm from "./components/LandingForm";
+import "./App.css";
 
 function App() {
   return (
@@ -24,7 +23,7 @@ function App() {
       <LandingService />
       <LandingCert />
       <LandingContact1 />
-
+      <LandingForm />
       {/* <LandingContact2 /> */}
       {/* <h1 className="text-3xl font-bold">Hmmm</h1> */}
       <LandingFooter />

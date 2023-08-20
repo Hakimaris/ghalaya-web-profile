@@ -5,7 +5,7 @@ import {GoLocation} from "react-icons/go";
 
 const LandingFooter = () => {
   return (
-    <footer className="bg-black text-white py-4 text-center">
+    <footer className="bg-blue-950 text-white py-4 text-center">
       <ul className="flex justify-center items-center">
         <li className="pb-4 space-x-5">
           <a href="#" className="font-semibold">Tentang Kami</a>

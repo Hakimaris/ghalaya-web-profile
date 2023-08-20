@@ -9,6 +9,7 @@ export default {
           accent: "#669BBC",
           neutral: "#FDF0D5",
           "base-100": "#f3f4f6",
+          "base-200": "#f3f4f6",
           info: "#003049",
           success: "#36d399",
           warning: "#fbbd23",
@@ -36,5 +37,5 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui"), ],
+  plugins: [require("daisyui"),],
 };
