@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Dropdownlang from "./Dropdownlang";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
-  const [activeLanguage, setActiveLanguage] = useState("indonesia");
+  const [t, i18n] = useTranslation("global");
   const handleLanguageButtonClick = (language) => {
-    setActiveLanguage(language);
+    i18n.changeLanguage(language);
   };
 
   return (
@@ -33,19 +34,19 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Tentang Kami</a>
+              <a>{t("navbar.tentangKami")}</a>
             </li>
             <li>
-              <a>Layanan</a>
+              <a>{t("navbar.layanan")}</a>
             </li>
             <li>
-              <a>Klien</a>
+              <a>{t("navbar.klient")}</a>
             </li>
             <li>
-              <a>Sertifikasi</a>
+              <a>{t("navbar.sertifikasi")}</a>
             </li>
             <li>
-              <a>Kontak</a>
+              <a>{t("navbar.kontak")}</a>
             </li>
           </ul>
         </div>
@@ -57,21 +58,21 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-5">
-          <li>
-            <a>Tentang Kami</a>
-          </li>
-          <li>
-            <a>Layanan</a>
-          </li>
-          <li>
-            <a>Klien</a>
-          </li>
-          <li>
-            <a>Sertifikasi</a>
-          </li>
-          <li>
-            <a>Kontak</a>
-          </li>
+            <li>
+              <a>{t("navbar.tentangKami")}</a>
+            </li>
+            <li>
+              <a>{t("navbar.layanan")}</a>
+            </li>
+            <li>
+              <a>{t("navbar.klien")}</a>
+            </li>
+            <li>
+              <a>{t("navbar.sertifikasi")}</a>
+            </li>
+            <li>
+              <a>{t("navbar.kontak")}</a>
+            </li>
         </ul>
       </div>
       <div className="navbar-end">
@@ -105,10 +106,7 @@ const Navbar = () => {
             <div class="dropdown-content bg-base-100 text-base-content rounded-box top-px mt-16 w-56 overflow-y-auto shadow">
               <ul class="menu menu-sm gap-1" tabindex="0">
                 <li>
-                  <button
-                    className={activeLanguage === "english" ? "active" : ""}
-                    onClick={() => handleLanguageButtonClick("english")}
-                  >
+                  <button onClick={() => handleLanguageButtonClick("en")}>
                     <img
                       class="drop-shadow"
                       loading="lazy"
@@ -117,14 +115,11 @@ const Navbar = () => {
                       alt="English"
                       src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1ec-1f1e7.svg"
                     ></img>{" "}
-                    English{" "}
+                    English
                   </button>{" "}
                 </li>
                 <li>
-                <button
-                  className={activeLanguage === "indonesia" ? "active" : ""}
-                  onClick={() => handleLanguageButtonClick("indonesia")}
-                >
+                  <button onClick={() => handleLanguageButtonClick("id")}>
                     <img
                       class="drop-shadow"
                       loading="lazy"
