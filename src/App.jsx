@@ -22,7 +22,7 @@ function App() {
       <LandingVisionMission />
       <LandingService />
       <LandingCert />
-      <LandingContact1 />
+      {/* <LandingContact1 /> */}
       <LandingForm />
       {/* <LandingContact2 /> */}
       {/* <h1 className="text-3xl font-bold">Hmmm</h1> */}

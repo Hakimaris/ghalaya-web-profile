@@ -6,14 +6,14 @@ const LandingVisionMission = () => {
       <div className="md:hidden px-5">
       <h1 className="text-3xl font-bold text-center pb-3 custom-header">Tentang Kami</h1>
         <div className="grid md:grid-cols-2 px-2">
-          <div className="border-b border-blue-950 pb-2">
+          <div className="border-b border-info pb-2">
             <h1 className="font-bold text-xl text-center"> Visi </h1>
             <p className="py-1 text-justify">
               Menjadikan <span className="font-bold">PT. GHALAYA ABADIPERSADA LINE</span> sebagai perusahaan
               Pelayaran dan Angkutan Laut yang terbaik dan terpercaya.
             </p>
           </div>
-          <div className="pt-2 border-b border-blue-950 pb-2">
+          <div className="pt-2 border-b border-info pb-2">
             <h1 className="font-bold text-xl text-center"> Misi </h1>
             <p className="py-1 text-justify">
               Selalu memberikan solusi di bidang Pelayaran dan Angkatan Laut

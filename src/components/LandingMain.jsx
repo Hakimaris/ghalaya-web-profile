@@ -17,7 +17,7 @@ const LandingMain = () => {
           <h1 className="font-bold text-center text-2xl py-6">
             {t("landingMain.headerMobile")}
           </h1>
-          <div className="border-l-8 text-justify border-blue-950 px-5">
+          <div className="border-l-8 text-justify border-info px-5">
             <p>
               <span className="font-bold"> PT. Ghalaya Abadipersada Line</span>{" "}
               adalah perusahaan swasta yang bergerak di bidang jasa jngkutan
@@ -29,7 +29,7 @@ const LandingMain = () => {
             <p className="">Tertarik dengan layanan kami?</p>
           </div>
           <div className="text-center">
-            <button className="bg-blue-950 hover:bg-red-900 text-white font-bold py-2 px-4 rounded-full">
+            <button className="bg-info hover:bg-red-900 text-white font-bold py-2 px-4 rounded-full">
               Hubungi Kami
             </button>
           </div>
@@ -42,7 +42,7 @@ const LandingMain = () => {
               Solusi Logistik <br />
               Terpercaya
             </h1>
-            <div className="border-l-8 border-blue-950 text-2xl px-5">
+            <div className="border-l-8 border-info text-2xl px-5">
               <p>
                 <span className="font-bold">
                   {" "}
@@ -57,7 +57,7 @@ const LandingMain = () => {
               <p className="text-xl">Tertarik dengan layanan kami?</p>
             </div>
             <div className="">
-              <button className="bg-blue-950 hover:bg-red-900 text-white font-bold py-2 px-4 rounded-full">
+              <button className="bg-info hover:bg-red-900 text-white font-bold py-2 px-4 rounded-full">
                 Hubungi Kami
               </button>
             </div>

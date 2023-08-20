@@ -11,7 +11,7 @@ const LandingContact1 = () => {
           <h1 className="font-bold text-3xl md:text-4xl py-2 text-center md:text-right">
             Hubungi Kami
           </h1>
-          <div className="border-blue-950 md:border-r-8 md:border-l-0 sm:border-l-8 md:text-xl px-5">
+          <div className="border-info md:border-r-8 md:border-l-0 sm:border-l-8 md:text-xl px-5">
             <p className="md:text-right">
               Jika Anda memiliki
               <span className="font-bold"> pertanyaan, kritik, masukan</span>

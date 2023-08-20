@@ -9,10 +9,10 @@ const LandingService = () => {
             <h1 className="text-3xl font-bold">Layanan Kami</h1>
           </div>
         </div>
-        <div className="flex flex-wrap justify-center justify-self-center gap-4">
-          <div className="w-full sm:w-3/5 border border-blue-950 rounded-md p-6 text-center">
-            <h1 className="text-xl font-bold pb-3">Placeholder-1</h1>
-            <p>Lorem ipsum</p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <div class="w-full sm:w-3/5 border border-info rounded-md p-6 text-center">
+            <h1 class="text-xl font-bold pb-3">Placeholder-1</h1>
+            <p class="sm:max-w-xs mx-auto">Lorem ipsum</p>
           </div>
         </div>
       </div>

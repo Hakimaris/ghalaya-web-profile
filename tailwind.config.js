@@ -5,12 +5,12 @@ export default {
       {
         mytheme: {
           primary: "#780000",
-          secondary: "#C1121F",
-          accent: "#669BBC",
-          neutral: "#FDF0D5",
+          secondary: "#EF233C",
+          accent: "#8D99AE",
+          neutral: "#EDF2F4",
           "base-100": "#f3f4f6",
           "base-200": "#f3f4f6",
-          info: "#003049",
+          info: "#2B2D42",
           success: "#36d399",
           warning: "#fbbd23",
           error: "#f87272",
