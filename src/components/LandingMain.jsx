@@ -19,18 +19,21 @@ const LandingMain = () => {
           </h1>
           <div className="border-l-8 text-justify border-blue-950 px-5">
             <p>
-              <span className="font-bold"> PT. Ghalaya Abadipersada Line</span>{" "}
+              {t("landingMain.deskripsi1")}
+            </p>
+            {/* <p>
+              <span className="font-bold"> PT. Ghalaya Abadipersada Line</span>
               adalah perusahaan swasta yang bergerak di bidang jasa jngkutan
               laut di Surabaya dan telah dipercayai oleh berbagai perusahaan
               ternama <span className="font-bold">sejak tahun 1992</span>
-            </p>
+            </p> */}
           </div>
           <div className="pt-8 pb-2 text-center">
-            <p className="">Tertarik dengan layanan kami?</p>
+            <p className="">{t("landingMain.tertarik")}</p>
           </div>
           <div className="text-center">
             <button className="bg-blue-950 hover:bg-red-900 text-white font-bold py-2 px-4 rounded-full">
-              Hubungi Kami
+              {t("landingMain.btnHubungi")}
             </button>
           </div>
         </div>
@@ -39,33 +42,26 @@ const LandingMain = () => {
         <div className="grid grid-cols-5 gap-4">
           <div className="col-span-3 ps-8">
             <h1 className="font-bold text-5xl py-6">
-              Solusi Logistik <br />
-              Terpercaya
+              {t("landingMain.header")}
             </h1>
             <div className="border-l-8 border-blue-950 text-2xl px-5">
               <p>
-                <span className="font-bold">
-                  {" "}
-                  PT. Ghalaya Abadipersada Line
-                </span>{" "}
-                adalah perusahaan swasta yang bergerak di bidang jasa angkutan
-                laut di Surabaya dan telah dipercayai oleh berbagai perusahaan
-                ternama <span className="font-bold">sejak tahun 1992</span>
+                {t("landingMain.deskripsi1")}
               </p>
             </div>
             <div className="pt-8 pb-2">
-              <p className="text-xl">Tertarik dengan layanan kami?</p>
+              <p className="text-xl">{t("landingMain.tertarik")}</p>
             </div>
             <div className="">
               <button className="bg-blue-950 hover:bg-red-900 text-white font-bold py-2 px-4 rounded-full">
-                Hubungi Kami
+                {t("landingMain.btnHubungi")}
               </button>
             </div>
           </div>
           <div className="col-span-2">
             <div className="h-9/12 w-96">
               <div className="">
-                <div className="carousel w-full">
+                {/* <div className="carousel w-full">
                   <div id="slide1" className="carousel-item relative w-full">
                     <img
                       src="./src/assets/armada/kapal1.jpeg"
@@ -122,7 +118,7 @@ const LandingMain = () => {
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

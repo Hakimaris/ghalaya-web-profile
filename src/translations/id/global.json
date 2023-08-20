@@ -1,9 +1,16 @@
 {
   "landingMain":{
-    "headerMobile":"Solusi Angkutan Laut Terpercaya i18n",
+    "headerMobile":"Solusi Angkutan Laut Terpercaya",
     "header":"Solusi Angkutan Laut Terpercaya",
-    "deskripsi":"PT. Ghalaya Abadipersada Line adalah perusahaan swasta yang bergerak di bidang pelayaran sumber daya tambang dan telah dipercayai oleh berbagai perusahaan ternama sejak tahun 1992.",
+    "deskripsi1":"PT. Ghalaya Abadipersada Line adalah perusahaan swasta yang bergerak di bidang pelayaran sumber daya tambang dan telah dipercayai oleh berbagai perusahaan ternama sejak tahun 1992.",
     "tertarik" :"Tertarik dengan layanan kami?",
     "btnHubungi":"Hubungi Kami"
+  },
+  "navbar":{
+    "tentangKami":"Tentang Kami peepo",
+    "layanan":"Layanan",
+    "klien":"Klien",
+    "sertifikasi":"Sertifikasi",
+    "kontak":"Kontak"
   }
 }

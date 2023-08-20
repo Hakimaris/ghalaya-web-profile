@@ -1,9 +1,26 @@
 {
   "landingMain":{
-    "headerMobile":"Solusi Angkutan Laut Terpercaya i18n",
-    "header":"Trusted Logistic Partner",
-    "deskripsi":"is a private company engaged in shipping of mining resources and has been trusted by various well-known companies since 1992.",
+    "headerMobile":"Trusted Sea Freight Solution",
+    "header":"Trusted Sea Freight Solution",
+    "deskripsi1":"PT. Ghalaya Abadipersada Line is a private company engaged in shipping of mining resources and has been trusted by various well-known companies since 1992.",
     "tertarik" :"Interested in our services?",
-    "btnhubungi":"Contact Us"
+    "btnHubungi":"Contact Us"
+  },
+    "navbar":{
+    "tentangKami":"About Us",
+    "layanan":"Service",
+    "klien":"Client",
+    "sertifikasi":"Certification",
+    "kontak":"Contact"
+  },
+  "VisiMisi":{
+    "tentangKami":"About Us",
+    "headerVisi":"Our Vision",
+    "descVisi":"a",
+    "headerMission":"Our Mission",
+    "descMission":"a"
+  },
+  "misc":{
+    "headerclient":"Entrusted with Confidence"
   }
 }
