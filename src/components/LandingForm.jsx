@@ -1,29 +1,16 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
+
 import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 
 export default function LandingForm() {
   return (
-    <section className="bg-white dark:bg-info">
+    <section className="bg-neutral dark:bg-info">
       <div className="container px-6 py-12 mx-auto">
         <div className="lg:flex lg:items-center lg:-mx-6">
           <div className="lg:w-1/2 lg:mx-6">
-            <h1 className="text-2xl font-semibold text-gray-800 capitalize dark:text-white lg:text-3xl">
+            <h1 className="text-2xl font-semibold text-gray-800 capitalize dark:text-base-300 lg:text-3xl">
               Hubungi kami <br></br> untuk info lebih lanjut
             </h1>
-            <p className="text-gray-800 dark:text-white">
+            <p className="text-gray-800 dark:text-base-300">
               Jika Anda memiliki pertanyaan, kritik, masukan atau tertarik
               dengan layanan kami, jangan ragu untuk menghubungi kami.
             </p>
@@ -51,8 +38,9 @@ export default function LandingForm() {
                 </svg>
 
                 <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
-                  Jl. Teluk Kumai Barat No. 68-70 <br></br>Perak Utara,
-                  Surabaya, Jawa Timur
+                  Jl. Teluk Kumai Barat No 70 <br></br> 
+                  Surabaya, Jawa Timur <br></br>
+                  60165
                 </span>
               </p>
 
@@ -73,53 +61,53 @@ export default function LandingForm() {
                 </svg>
 
                 <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
-                  ghalaya@mail.com
+                info@ghalaya.com
                 </span>
               </p>
             </div>
           </div>
 
           <div className="mt-8 lg:w-1/2 lg:mx-6">
-            <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
+            <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-base-300 rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
               <h1 className="text-lg font-medium text-gray-700">
-                What do you want to ask
+                Apa yang ingin Anda sampaikan?
               </h1>
 
               <form className="mt-6">
                 <div className="flex-1">
                   <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-                    Full Name
+                    Nama Lengkap
                   </label>
                   <input
                     type="text"
                     placeholder="John Doe"
-                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-accent dark:focus:border-accent focus:ring-accent focus:outline-none focus:ring focus:ring-opacity-40"
+                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-base-300 border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-accent dark:focus:border-accent focus:ring-accent focus:outline-none focus:ring focus:ring-opacity-40"
                   />
                 </div>
 
                 <div className="flex-1 mt-6">
                   <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-                    Email address
+                    Alamat Email Anda
                   </label>
                   <input
                     type="email"
                     placeholder="johndoe@example.com"
-                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-accent dark:focus:border-accent focus:ring-accent focus:outline-none focus:ring focus:ring-opacity-40"
+                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-base-300 border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-accent dark:focus:border-accent focus:ring-accent focus:outline-none focus:ring focus:ring-opacity-40"
                   />
                 </div>
 
                 <div className="w-full mt-6">
                   <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-                    Message
+                    Pesan
                   </label>
                   <textarea
-                    className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-accent dark:focus:border-accent focus:ring-accent focus:outline-none focus:ring focus:ring-opacity-40"
+                    className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-base-300 border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-accent dark:focus:border-accent focus:ring-accent focus:outline-none focus:ring focus:ring-opacity-40"
                     placeholder="Message"
                   ></textarea>
                 </div>
 
-                <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-accent rounded-md hover:bg-secondary focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
-                  get in touch
+                <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-base-300 capitalize transition-colors duration-300 transform bg-accent rounded-md hover:bg-secondary focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                  Kirimkan Email
                 </button>
               </form>
             </div>

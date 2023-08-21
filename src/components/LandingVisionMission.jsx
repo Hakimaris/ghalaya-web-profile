@@ -2,7 +2,7 @@ import React from "react";
 
 const LandingVisionMission = () => {
   return (
-    <div className="pt-8">
+    <div className="pt-8 bg-neutral text-info dark:bg-info dark:text-white">
       <div className="md:hidden px-5">
       <h1 className="text-3xl font-bold text-center pb-3 custom-header">Tentang Kami</h1>
         <div className="grid md:grid-cols-2 px-2">

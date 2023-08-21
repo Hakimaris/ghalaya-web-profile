@@ -2,7 +2,7 @@ import React from "react";
 
 const LandingCert = () => {
   return (
-    <div className="pb-8 px-8">
+    <div className="pb-8 px-8 bg-neutral text-info dark:bg-info dark:text-white">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
         <div className="col-span-1 md:col-span-2 md:ps-8 text-center md:text-left">
           <h1 className="text-3xl font-bold py-4">Sertifikasi</h1>
