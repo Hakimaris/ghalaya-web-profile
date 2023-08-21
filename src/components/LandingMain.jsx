@@ -17,7 +17,7 @@ const LandingMain = () => {
           <h1 className="font-bold text-center text-2xl py-6">
             {t("landingMain.headerMobile")}
           </h1>
-          <div className="border-l-8 text-justify border-info px-5">
+          <div className="border-l-8 text-justify border-info dark:border-neutral px-5">
             <p>{t("landingMain.deskripsi1")}</p>
           </div>
           <div className="pt-8 pb-2 text-center">
@@ -36,7 +36,7 @@ const LandingMain = () => {
             <h1 className="font-bold text-5xl py-6">
               {t("landingMain.header")}
             </h1>
-            <div className="border-l-8 border-info text-2xl px-5">
+            <div className="border-l-8 border-info dark:border-neutral text-2xl px-5">
               <p>{t("landingMain.deskripsi1")}</p>
             </div>
             <div className="pt-8 pb-2">
