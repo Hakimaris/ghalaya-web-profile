@@ -2,25 +2,32 @@ import React from "react";
 
 const LandingClient = () => {
   return (
-    <div className="bg-white text-info">
-      <div className="pt-2 ">
-        <div className="flex flex-wrap justify-center items-center gap-7 py-9">
-          <img src="src\assets\PLN.png" alt="PLN" />
-          <img src="src\assets\PLNnusantarapower.png" alt="PLN nusantara" />
-
-          <img
-            src="src\assets\PLNpersero.png"
-            className="h-28 w-20 light:hidden dark:display"
-            alt="PLN Persero"
-          />
-          <img
-            className="h-20"
-            src="src/assets/klien/pertamina-light.png"
-            alt="Pertamina"
-          />
+    <section class="bg-neutral">
+      <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-4">
+          <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
+            <img src="src\assets\klien\PLN.png" alt="PLN" />
+          </div>
+          <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
+            <img src="src\assets\PLNnusantarapower.png" alt="PLN nusantara" />
+          </div>
+          <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
+            <img
+              src="src\assets\PLNpersero.png"
+              className="h-28 w-20 light:hidden dark:display"
+              alt="PLN Persero"
+            />
+          </div>
+          <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
+            <img
+              className="h-20"
+              src="src/assets/klien/pertamina-light.png"
+              alt="Pertamina"
+            />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

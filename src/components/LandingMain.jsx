@@ -165,7 +165,7 @@ const LandingMain = () => {
         </div>
       </header>
 
-      <main class="w-screen h-screen lg:overflow-hidden">
+      <main class="w-screen h-screen lg:overflow-hidden bg-neutral">
         <div class="w-full relative lg:h-screen lg:pt-0 pt-32 flex">
           <div class="lg:w-1/2 w-full h-full flex justify-end">
             <div class="h-full w-full flex flex-col justify-center items-start sm:items-center lg:items-start max-w-2xl mx-auto lg:mx-0 px-8 sm:pl-24 pr-10 space-y-8">

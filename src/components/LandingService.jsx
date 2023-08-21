@@ -2,7 +2,7 @@ import React from "react";
 
 const LandingService = () => {
   return (
-    <div className="py-8 px-8 bg-neutral text-info dark:bg-info dark:text-white">
+    <div className="py-20 px-8 bg-neutral text-info dark:bg-info dark:text-white">
       <div className="grid gap-4">
         <div className="text-center">
           <div className="flex flex-col h-full justify-self-center items-center">
