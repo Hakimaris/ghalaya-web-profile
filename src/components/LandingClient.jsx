@@ -9,11 +9,11 @@ const LandingClient = () => {
             <img src="src\assets\klien\PLN.png" alt="PLN" />
           </div>
           <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-            <img src="src\assets\PLNnusantarapower.png" alt="PLN nusantara" />
+            <img src="src\assets\klien\PLNnusantarapower.png" alt="PLN nusantara" />
           </div>
           <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
             <img
-              src="src\assets\PLNpersero.png"
+              src="src\assets\klien\PLNpersero.png"
               className="h-28 w-20 light:hidden dark:display"
               alt="PLN Persero"
             />

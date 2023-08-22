@@ -3,14 +3,14 @@ import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 
 export default function LandingForm() {
   return (
-    <section className="bg-neutral dark:bg-info">
+    <section className="px-8 bg-neutral">
       <div className="container px-6 py-12 mx-auto">
         <div className="lg:flex lg:items-center lg:-mx-6">
           <div className="lg:w-1/2 lg:mx-6">
-            <h1 className="text-2xl font-semibold text-gray-800 capitalize dark:text-base-300 lg:text-3xl">
+            <h1 className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
               Hubungi kami <br></br> untuk info lebih lanjut
             </h1>
-            <p className="text-gray-800 dark:text-base-300">
+            <p className="text-gray-500">
               Jika Anda memiliki pertanyaan, kritik, masukan atau tertarik
               dengan layanan kami, jangan ragu untuk menghubungi kami.
             </p>
@@ -37,7 +37,7 @@ export default function LandingForm() {
                   />
                 </svg>
 
-                <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                <span className="mx-2 text-gray-500 truncate w-72">
                   Jl. Teluk Kumai Barat No 70 <br></br> 
                   Surabaya, Jawa Timur <br></br>
                   60165
@@ -60,7 +60,7 @@ export default function LandingForm() {
                   />
                 </svg>
 
-                <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                <span className="mx-2 text-gray-500 truncate w-72">
                 info@ghalaya.com
                 </span>
               </p>
@@ -101,12 +101,12 @@ export default function LandingForm() {
                     Pesan
                   </label>
                   <textarea
-                    className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-base-300 border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-accent dark:focus:border-accent focus:ring-accent focus:outline-none focus:ring focus:ring-opacity-40"
+                    className="block max-h-16 w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-base-300 border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-accent dark:focus:border-accent focus:ring-accent focus:outline-none focus:ring focus:ring-opacity-40"
                     placeholder="Message"
                   ></textarea>
                 </div>
 
-                <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-base-300 capitalize transition-colors duration-300 transform bg-accent rounded-md hover:bg-secondary focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                <button className="overflow-y-auto w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-info capitalize transition-colors duration-300 transform bg-neutral rounded-md hover:bg-secondary focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                   Kirimkan Email
                 </button>
               </form>

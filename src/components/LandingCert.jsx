@@ -2,13 +2,13 @@ import React from "react";
 
 const LandingCert = () => {
   return (
-    <div className="pb-8 px-8 bg-neutral text-info dark:bg-info dark:text-white">
+    <div className="pb-8 pt-10 px-8 bg-neutral text-info">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
         <div className="col-span-1 md:col-span-2 md:ps-8 text-center md:text-left">
           <h1 className="text-3xl font-bold py-4">Sertifikasi</h1>
-          <div className="border-l-8 text-justify border-info dark:border-neutral px-5 md:text-xl">
-            <p>
-              <span className="font-bold"> PT. Ghalaya Abadipersada Line</span>{" "}
+          <div className="text-justify md:text-xl">
+            <p className="text-base relative z-20 text-gray-500">
+              PT. Ghalaya Abadipersada Line
               selalu berupaya memberikan layanan terbaik kami. Hal ini terbukti
               melalui kepemilikan sertifikasi ISO kami{" "}
             </p>
