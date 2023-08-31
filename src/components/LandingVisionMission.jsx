@@ -1,12 +1,17 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const LandingVisionMission = () => {
+  const [t, i18n] = useTranslation("global")
+  const handleLanguageButtonClick = (language) => {
+    i18n.changeLanguage(language);
+  };
   return (
     <div className="bg-neutral">
       <div class="container py-12 mx-auto md:px-6">
         <section class="text-center">
           <div class="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
-            <h2 class="mb-16 text-3xl font-bold">Tentang Kami</h2>
+            <h2 class="mb-16 text-3xl font-bold">{t("VisiMisi.tentangKami")}</h2>
             <div class="mb-12 md:mb-0">
               <div class="mb-6 inline-block rounded-md bg-info p-4 text-neutral">
                 <svg
@@ -24,11 +29,8 @@ const LandingVisionMission = () => {
                   />
                 </svg>
               </div>
-              <h5 class="mb-4 text-lg font-bold">Visi</h5>
-              <p class="text-neutral-500">
-                Menjadikan PT. GHALAYA ABADIPERSADA LINE sebagai perusahaan
-                Pelayaran dan Angkutan Laut yang terbaik dan terpercaya.
-              </p>
+              <h5 class="mb-4 text-lg font-bold">{t("VisiMisi.headerVisi")}</h5>
+              <p class="text-neutral-500">{t("VisiMisi.descVisi")}</p>
             </div>
 
             <div class="mb-12 md:mb-0">
@@ -48,11 +50,8 @@ const LandingVisionMission = () => {
                   />
                 </svg>
               </div>
-              <h5 class="mb-4 text-lg font-bold">Misi</h5>
-              <p class="text-neutral-500">
-                Selalu memberikan solusi di bidang Pelayaran dan Angkatan Laut
-                yang bermutu dan berkualitas tinggi secara efektif dan efisien
-              </p>
+              <h5 class="mb-4 text-lg font-bold">{t("VisiMisi.headerMission")}</h5>
+              <p class="text-neutral-500">{t("VisiMisi.descMission")}</p>
             </div>
           </div>
         </section>

@@ -25,9 +25,9 @@
   },
   "Sertifikasi":{
     "header":"Certification",
-    "desc":"always try to provide our best service. This is proven through our possession of multiple ISO certification"
+    "desc":"PT. Ghalaya Abadipersada Line always try to provide our best service. This is proven through our possession of multiple ISO certification"
   },
-   "contactUs":{
+    "contactUs":{
     "header":"Contact Us",
     "desc":"If you have any questions, criticism, feedback or are interested in our services, please feel free to contact us.",
     "formHeader":"Tell me what you think",
@@ -35,8 +35,8 @@
     "formName":"John John",
     "formMailHeader":"Your Email",
     "formMail":"Johnjohn@mail.com",
-    "formMessageHeader":"Your Message",
-    "formMessage":"Have a nice day!",
+    "formMsgHeader":"Your Message",
+    "formMsg":"Have a nice day!",
     "formSend":"Send!"
   }
 }

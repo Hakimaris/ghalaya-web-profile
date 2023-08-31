@@ -35,8 +35,8 @@
     "formName":"John John",
     "formMailHeader":"Alamat Email Anda",
     "formMail":"Johnjohn@mail.com",
-    "formMessageHeader":"Pesan",
-    "formMessage":"Hello!",
+    "formMsgHeader":"Pesan",
+    "formMsg":"Hello!",
     "formSend":"Kirimkan Email"
   }
 }

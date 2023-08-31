@@ -1,19 +1,16 @@
 
 import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
+import { useTranslation } from "react-i18next";
 
 export default function LandingForm() {
+  const [t,i18n] =  useTranslation("global")
   return (
     <section className="px-8 bg-neutral">
       <div className="container px-6 py-12 mx-auto">
         <div className="lg:flex lg:items-center lg:-mx-6">
           <div className="lg:w-1/2 lg:mx-6">
-            <h1 className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
-              Hubungi kami <br></br> untuk info lebih lanjut
-            </h1>
-            <p className="text-gray-500">
-              Jika Anda memiliki pertanyaan, kritik, masukan atau tertarik
-              dengan layanan kami, jangan ragu untuk menghubungi kami.
-            </p>
+            <h1 className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">{t("contactUs.header")}</h1>
+            <p className="text-gray-500">{t("contactUs.desc")}</p>
 
             <div className="mt-6 space-y-8 md:mt-8">
               <p className="flex items-start -mx-2">
@@ -70,13 +67,13 @@ export default function LandingForm() {
           <div className="mt-8 lg:w-1/2 lg:mx-6">
             <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-base-300 rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
               <h1 className="text-lg font-medium text-gray-700">
-                Apa yang ingin Anda sampaikan?
+                {t("contactUs.formHeader")}
               </h1>
 
               <form className="mt-6">
                 <div className="flex-1">
                   <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-                    Nama Lengkap
+                    {t("contactUs.formNameHeader")}
                   </label>
                   <input
                     type="text"
@@ -87,7 +84,7 @@ export default function LandingForm() {
 
                 <div className="flex-1 mt-6">
                   <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-                    Alamat Email Anda
+                    {t("contactUs.formMailHeader")}
                   </label>
                   <input
                     type="email"
@@ -98,16 +95,16 @@ export default function LandingForm() {
 
                 <div className="w-full mt-6">
                   <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-                    Pesan
+                    {t("contactUs.formMsgHeader")}
                   </label>
                   <textarea
                     className="block max-h-16 w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-base-300 border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-accent dark:focus:border-accent focus:ring-accent focus:outline-none focus:ring focus:ring-opacity-40"
-                    placeholder="Message"
+                    placeholder="Hallo"
                   ></textarea>
                 </div>
 
                 <button className="overflow-y-auto w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-info capitalize transition-colors duration-300 transform bg-neutral rounded-md hover:bg-secondary focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
-                  Kirimkan Email
+                  {t("contactUs.formSend")}
                 </button>
               </form>
             </div>
