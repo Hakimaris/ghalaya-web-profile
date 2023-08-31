@@ -7,10 +7,36 @@
     "btnHubungi":"Hubungi Kami"
   },
   "navbar":{
-    "tentangKami":"Tentang Kami peepo",
+    "tentangKami":"Tentang Kami",
     "layanan":"Layanan",
     "klien":"Klien",
     "sertifikasi":"Sertifikasi",
     "kontak":"Kontak"
+  },
+   "VisiMisi":{
+    "tentangKami":"Tentang Kami",
+    "headerVisi":"Visi",
+    "descVisi":"Menjadikan PT. GHALAYA ABADIPERSADA LINE sebagai perusahaan Pelayaran dan Angkutan Laut yang terbaik dan terpercaya.",
+    "headerMission":"Misi",
+    "descMission":"Selalu memberikan solusi di bidang Pelayaran dan Angkatan Laut yang bermutu dan berkualitas tinggi secara efektif dan efisien"
+  },
+  "Layanan":{
+    "header":"Kami melayani pengangkutan barang via jalur pelayaran di Indonesia"
+  },
+  "Sertifikasi":{
+    "header":"Sertifikasi",
+    "desc":"PT. Ghalaya Abadipersada Line selalu berupaya memberikan layanan terbaik kami. Hal ini terbukti melalui kepemilikan sertifikasi ISO kami"
+  },
+   "contactUs":{
+    "header":"Kontak kami",
+    "desc":"Jika Anda memiliki pertanyaan, kritik, masukan atau tertarik dengan layanan kami, jangan ragu untuk menghubungi kami.",
+    "formHeader":"Apa yang ingin Anda sampaikan?",
+    "formNameHeader":"Nama Lengkap",
+    "formName":"John John",
+    "formMailHeader":"Alamat Email Anda",
+    "formMail":"Johnjohn@mail.com",
+    "formMessageHeader":"Pesan",
+    "formMessage":"Hello!",
+    "formSend":"Kirimkan Email"
   }
 }

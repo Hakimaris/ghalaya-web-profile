@@ -16,11 +16,27 @@
   "VisiMisi":{
     "tentangKami":"About Us",
     "headerVisi":"Our Vision",
-    "descVisi":"a",
+    "descVisi":"Making PT. GHALAYA ABADI PERSADA LINE as the best and most trusted shipping and sea transportation company.",
     "headerMission":"Our Mission",
-    "descMission":"a"
+    "descMission":"Always provide a high-quality solutions in the field of Shipping and Navy effectively and efficiently"
   },
-  "misc":{
-    "headerclient":"Entrusted with Confidence"
+  "Layanan":{
+    "header":"We serve the transportation of goods via shipping lines in Indonesia"
+  },
+  "Sertifikasi":{
+    "header":"Certification",
+    "desc":"always try to provide our best service. This is proven through our possession of multiple ISO certification"
+  },
+   "contactUs":{
+    "header":"Contact Us",
+    "desc":"If you have any questions, criticism, feedback or are interested in our services, please feel free to contact us.",
+    "formHeader":"Tell me what you think",
+    "formNameHeader":"Your Name",
+    "formName":"John John",
+    "formMailHeader":"Your Email",
+    "formMail":"Johnjohn@mail.com",
+    "formMessageHeader":"Your Message",
+    "formMessage":"Have a nice day!",
+    "formSend":"Send!"
   }
 }
