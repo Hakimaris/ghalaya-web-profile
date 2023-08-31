@@ -65,8 +65,8 @@ export default function LandingForm() {
           </div>
 
           <div className="mt-8 lg:w-1/2 lg:mx-6">
-            <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-base-300 rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
-              <h1 className="text-lg font-medium text-gray-700">
+            <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-info rounded-lg shadow-2xl dark:bg-info lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
+              <h1 className="text-lg font-medium text-gray-100">
                 {t("contactUs.formHeader")}
               </h1>
 
@@ -98,7 +98,7 @@ export default function LandingForm() {
                     {t("contactUs.formMsgHeader")}
                   </label>
                   <textarea
-                    className="block max-h-16 w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-base-300 border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-accent dark:focus:border-accent focus:ring-accent focus:outline-none focus:ring focus:ring-opacity-40"
+                    className="block max-h-16 w-full h-32 px-5 py-3 mt-2 text-gray-600 placeholder-gray-400 bg-base-300 border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-accent dark:focus:border-accent focus:ring-accent focus:outline-none focus:ring focus:ring-opacity-40"
                     placeholder="Hallo"
                   ></textarea>
                 </div>
