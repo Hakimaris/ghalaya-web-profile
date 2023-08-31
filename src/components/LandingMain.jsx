@@ -162,7 +162,7 @@ const LandingMain = () => {
               <div class="z-20 relative sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left w-full">
                 <button
                   submit="true"
-                  class="rounded bg-info hover:bg-accent px-4 font-medium text-sm text-white sm:mt-0 mt-3  w-full flex justify-center items-center flex-shrink-0 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 py-2.5"
+                  class="rounded bg-info hover:bg-accent px-4 font-medium text-sm text-white sm:mt-0 mt-3 flex justify-center items-center flex-shrink-0 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 py-2.5"
                 >
                   {t("landingMain.tertarik")}
                 </button>
