@@ -8,10 +8,12 @@ const LandingVisionMission = () => {
   };
   return (
     <div className="bg-neutral">
-      <div class="container py-12 mx-auto md:px-6">
-        <section class="text-center">
-          <div class="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
-            <h2 class="mb-16 text-3xl font-bold">{t("VisiMisi.tentangKami")}</h2>
+      <div className="container py-12 mx-auto md:px-6">
+        <section className="text-center">
+          <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
+            <div className="flex items-center justify-center mb-16">
+              <h2 className="text-3xl font-bold">{t("VisiMisi.tentangKami")}</h2>
+            </div>
             <div class="mb-12 md:mb-0">
               <div class="mb-6 inline-block rounded-md bg-info p-4 text-neutral">
                 <svg
@@ -57,57 +59,6 @@ const LandingVisionMission = () => {
         </section>
       </div>
     </div>
-
-    // <div className="pt-8 bg-neutral text-info dark:bg-info dark:text-white">
-    //   <div className="md:hidden px-5">
-    //     <h1 className="text-3xl font-bold text-center pb-3 custom-header">
-    //       Tentang Kami
-    //     </h1>
-    //     <div className="grid md:grid-cols-2 px-2">
-    //       <div className="border-b border-info pb-2">
-    //         <h1 className="font-bold text-xl text-center"> Visi </h1>
-    //         <p className="py-1 text-justify">
-    //           Menjadikan{" "}
-    //           <span className="font-bold">PT. GHALAYA ABADIPERSADA LINE</span>{" "}
-    //           sebagai perusahaan Pelayaran dan Angkutan Laut yang terbaik dan
-    //           terpercaya.
-    //         </p>
-    //       </div>
-    //       <div className="pt-2 border-b border-info pb-2">
-    //         <h1 className="font-bold text-xl text-center"> Misi </h1>
-    //         <p className="py-1 text-justify">
-    //           Selalu memberikan solusi di bidang Pelayaran dan Angkatan Laut
-    //           yang bermutu dan berkualitas tinggi secara efektif dan efisien
-    //         </p>
-    //       </div>
-    //     </div>
-    //   </div>
-    //   <div className="hidden md:block">
-    //     <div className="grid grid-cols-7">
-    //       <div className="col-span-4 ...">
-    //         <div className="grid grid-cols-2 ps-8">
-    //           <div className="text-center">
-    //             <h1 className="font-bold text-2xl"> Visi </h1>
-    //             <p className="py-1">
-    //               Menjadikan PT. GHALAYA ABADI PERSADA LINE sebagai perusahaan
-    //               Pelayaran dan Angkutan Laut yang terbaik dan terpercaya.
-    //             </p>
-    //           </div>
-    //           <div className="text-center">
-    //             <h1 className="font-bold text-2xl"> Misi </h1>
-    //             <p className="py-1">
-    //               Selalu memberikan solusi di bidang Pelayaran dan Angkatan Laut
-    //               yang bermutu dan berkualitas tinggi secara efektif dan efisien
-    //             </p>
-    //           </div>
-    //         </div>
-    //       </div>
-    //       <div className="col-span-3 text-center object-center ...">
-    //         <h1 className="text-4xl font-bold">Tentang Kami</h1>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 };
 
