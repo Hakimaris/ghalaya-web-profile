@@ -55,7 +55,7 @@ const LandingMain = () => {
               alt="Ghalaya Logo"
             ></img> */}
             <img
-              src="./src/assets/logo/logo-lightmode.svg"
+              src="logo/logo-lightmode.svg"
               className="xl:w-40 lg:w-40 md:w-20 sm:w-20 xs:w-2"
               alt="Ghalaya Logo"
             ></img>

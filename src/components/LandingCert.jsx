@@ -20,7 +20,7 @@ const LandingCert = () => {
             <div className="col-span-1 px-5 text-xl text-center">
               <img
                 className="mx-auto"
-                src="./src/assets/iso9001-2015.png"
+                src="iso/iso9001-2015.png"
                 alt="ISO 9001:2015"
               ></img>
               <p className="font-bold mt-2">ISO 9001:2015</p>
@@ -29,7 +29,7 @@ const LandingCert = () => {
             <div className="col-span-1 px-5 text-xl text-center">
               <img
                 className="mx-auto"
-                src="./src/assets/iso14001-2015.png"
+                src="iso/iso14001-2015.png"
                 alt="ISO 14001:2015"
               ></img>
               <p className="font-bold mt-2">ISO 14001:2015</p>
@@ -39,7 +39,7 @@ const LandingCert = () => {
               <div className="flex flex-col items-center">
                 <img
                   className="mx-auto pb-2"
-                  src="./src/assets/iso45001-2018.png"
+                  src="iso/iso45001-2018.png"
                   alt="ISO 45001:2018"
                 ></img>
                 <p className="font-bold">ISO 45001:2018</p>
