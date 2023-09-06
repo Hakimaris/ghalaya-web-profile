@@ -7,7 +7,7 @@ const LandingCert = () => {
     i18n.changeLanguage(language);
   };
   return (
-    <div className="pb-8 pt-10 px-8 bg-neutral text-info">
+    <div className="pb-8 pt-10 px-8 bg-neutral text-info" id="cert">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
         <div className="col-span-1 md:col-span-2 md:ps-8 text-center md:text-left">
           <h1 className="text-3xl font-bold py-4">{t("Sertifikasi.header")}</h1>

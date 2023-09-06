@@ -36,16 +36,16 @@ const LandingMain = () => {
                   <a>{t("navbar.tentangKami")}</a>
                 </li>
                 <li>
-                  <a>{t("navbar.layanan")}</a>
+                  <a href="#service">{t("navbar.layanan")}</a>
                 </li>
                 <li>
-                  <a>{t("navbar.klien")}</a>
+                  <a href="#klien">{t("navbar.klien")}</a>
                 </li>
                 <li>
-                  <a>{t("navbar.sertifikasi")}</a>
+                  <a href="#cert">{t("navbar.sertifikasi")}</a>
                 </li>
                 <li>
-                  <a>{t("navbar.kontak")}</a>
+                  <a href="#kontak">{t("navbar.kontak")}</a>
                 </li>
               </ul>
             </div>
@@ -63,19 +63,19 @@ const LandingMain = () => {
           <div className="navbar-center hidden font-bold lg:flex">
             <ul className="menu menu-horizontal px-5 ">
               <li>
-                <a className="hover:text-base-200">{t("navbar.tentangKami")}</a>
+                <a className="hover:text-base-200" href="#aboutus">{t("navbar.tentangKami")}</a>
               </li>
               <li>
-                <a className="hover:text-base-200">{t("navbar.layanan")}</a>
+                <a className="hover:text-base-200" href="#service">{t("navbar.layanan")}</a>
               </li>
               <li>
-                <a className="hover:text-base-200">{t("navbar.klien")}</a>
+                <a className="hover:text-base-200" href="#klien">{t("navbar.klien")}</a>
               </li>
               <li>
-                <a className="hover:text-base-200">{t("navbar.sertifikasi")}</a>
+                <a className="hover:text-base-200" href="#cert">{t("navbar.sertifikasi")}</a>
               </li>
               <li>
-                <a className="hover:text-base-200">{t("navbar.kontak")}</a>
+                <a className="hover:text-base-200" href="#kontak">{t("navbar.kontak")}</a>
               </li>
             </ul>
           </div>

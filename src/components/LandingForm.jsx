@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 export default function LandingForm() {
   const [t,i18n] =  useTranslation("global")
   return (
-    <section className="px-8 bg-neutral">
+    <section className="px-8 bg-neutral" id="kontak">
       <div className="container px-6 py-12 mx-auto">
         <div className="lg:flex lg:items-center lg:-mx-6">
           <div className="lg:w-1/2 lg:mx-6">

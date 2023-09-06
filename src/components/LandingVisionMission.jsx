@@ -7,7 +7,7 @@ const LandingVisionMission = () => {
     i18n.changeLanguage(language);
   };
   return (
-    <div className="bg-neutral">
+    <div className="bg-neutral" id="visimisi">
       <div className="container py-12 mx-auto md:px-6">
         <section className="text-center">
           <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">

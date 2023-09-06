@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const LandingService = () => {
   const [t,i18n] = useTranslation("global")
   return (
-    <section className="bg-neutral">
+    <section className="bg-neutral" id="service">
       <div className="container flex flex-col items-center p-2 mx-auto space-y-6 md:p-6">
         <svg
           xmlns="http://www.w3.org/2000/svg"
