@@ -25,7 +25,7 @@ const LandingFooter = () => {
         </li>
       </ul>
       <p>
-        &copy; {new Date().getFullYear()} PT. Ghalaya Abdi Persada Line. All
+        &copy; {new Date().getFullYear()} PT. Ghalaya Abadipersada Line. All
         rights reserved.
       </p>
     </footer>

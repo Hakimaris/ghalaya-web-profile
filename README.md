@@ -2,42 +2,41 @@
 
 This is the repository for Ghalaya Web Profile.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Website Profile ini dibuat menggunakan Javascript dengan library React + Vite.
 
 ## Getting Started
 
-To get started with Ghalaya Web Profile, follow these steps:
+syarat : 
+Sudah terinstal NPM dan GIT pada Local/PC sendiri.
 
-1. Clone this repository to your local machine using:
+Untuk menjalankan website pada local/PC sendiri, bisa dilakukan seperti berikut menggunakan terminal/CLI: 
+
+1. Download Repository atau Git Clone repository ini seperti berikut:
 
    ```bash
    git clone https://github.com/Hakimaris/ghalaya-web-profile.git
    ```
 
-2. Navigate to the project directory:
+2. Masuk ke folder:
 
    ```bash
    cd ghalaya-web-profile
    ```
 
-3. Install the dependencies:
+3. install menggunakan Command berikut :
 
    ```bash
    npm install
    ```
 
-4. Start the development server:
+4. Jalankan menggunakan command berikut:
 
    ```bash
    npm run dev
    ```
 
-5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see your Ghalaya Web Profile in action.
+5. copy link yang muncul pada terminal, lalu buka di browser untuk melihat websitenya.
+
 
 ## License
 
