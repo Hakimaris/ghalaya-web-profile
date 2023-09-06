@@ -7,8 +7,8 @@ const LandingMain = () => {
     i18n.changeLanguage(language);
   };
   return (
-    <section class="w-screen h-screen">
-      <header class="">
+    <section className="w-screen h-screen">
+      <header className="">
         <div className="navbar text-info w-full h-20 border-b border-gray-300/50 z-20 bg-opacity-70 backdrop-blur-2xl relative lg:absolute">
           <div className="navbar-start">
             <div className="dropdown">
@@ -81,14 +81,14 @@ const LandingMain = () => {
           </div>
           <div className="navbar-end">
             <div className="flex-none">
-              <div title="Change Language" class="dropdown dropdown-end">
+              <div title="Change Language" className="dropdown dropdown-end">
                 <div
-                  tabindex="0"
-                  class="btn btn-ghost normal-case"
+                  tabIndex="0"
+                  className="btn btn-ghost normal-case"
                   data-svelte-h="svelte-16sc62l"
                 >
                   <svg
-                    class="h-5 w-5 fill-current"
+                    className="h-5 w-5 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
                     height="20"
@@ -100,19 +100,19 @@ const LandingMain = () => {
                   <svg
                     width="12px"
                     height="12px"
-                    class="hidden h-2 w-2 fill-current opacity-60 sm:inline-block"
+                    className="hidden h-2 w-2 fill-current opacity-60 sm:inline-block"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 2048 2048"
                   >
                     <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path>
                   </svg>
                 </div>{" "}
-                <div class="dropdown-content bg-base-100 text-base-content rounded-box top-px mt-16 w-56 overflow-y-auto shadow">
-                  <ul class="menu menu-sm gap-1" tabindex="0">
+                <div className="dropdown-content bg-base-100 text-base-content rounded-box top-px mt-16 w-56 overflow-y-auto shadow">
+                  <ul className="menu menu-sm gap-1" tabIndex="0">
                     <li>
                       <button onClick={() => handleLanguageButtonClick("en")}>
                         <img
-                          class="drop-shadow"
+                          className="drop-shadow"
                           loading="lazy"
                           width="20"
                           height="20"
@@ -125,7 +125,7 @@ const LandingMain = () => {
                     <li>
                       <button onClick={() => handleLanguageButtonClick("id")}>
                         <img
-                          class="drop-shadow"
+                          className="drop-shadow"
                           loading="lazy"
                           width="20"
                           height="20"
@@ -143,33 +143,33 @@ const LandingMain = () => {
         </div>
       </header>
 
-      <main class="w-screen h-screen lg:overflow-hidden bg-neutral">
-        <div class="w-full relative lg:h-screen lg:pt-0 pt-32 flex">
-          <div class="lg:w-1/2 w-full h-full flex justify-end">
-            <div class="h-full w-full flex flex-col justify-center items-start sm:items-center lg:items-start max-w-2xl mx-auto lg:mx-0 px-8 sm:pl-24 pr-10 space-y-8">
-              <h1 class="relative z-20 w-full text-left sm:text-center lg:text-left">
-                <span class="block text-4xl font-bold tracking-tight sm:text-5xl xl:text-6xl">
-                  <span class="block text-gray-900">
+      <main className="w-screen h-screen lg:overflow-hidden bg-neutral">
+        <div className="w-full relative lg:h-screen lg:pt-0 pt-32 flex">
+          <div className="lg:w-1/2 w-full h-full flex justify-end">
+            <div className="h-full w-full flex flex-col justify-center items-start sm:items-center lg:items-start max-w-2xl mx-auto lg:mx-0 px-8 sm:pl-24 pr-10 space-y-8">
+              <h1 className="relative z-20 w-full text-left sm:text-center lg:text-left">
+                <span className="block text-4xl font-bold tracking-tight sm:text-5xl xl:text-6xl">
+                  <span className="block text-gray-900">
                     {" "}
                     {t("landingMain.header")}
                   </span>
-                  <span class="block relative"></span>
+                  <span className="block relative"></span>
                 </span>
               </h1>
-              <p class="text-base relative z-20 text-gray-500 sm:text-xl lg:text-lg xl:text-xl text-left sm:text-center lg:text-left">
+              <p className="text-base relative z-20 text-gray-500 sm:text-xl lg:text-lg xl:text-xl text-left sm:text-center lg:text-left">
                 {t("landingMain.deskripsi1")}
               </p>
-              <div class="z-20 relative sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left w-full">
+              <div className="z-20 relative sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left w-full">
                 <button
                   submit="true"
-                  class="rounded bg-info hover:bg-accent px-4 font-medium text-sm text-white sm:mt-0 mt-3 flex justify-center items-center flex-shrink-0 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 py-2.5"
+                  className="rounded bg-info hover:bg-accent px-4 font-medium text-sm text-white sm:mt-0 mt-3 flex justify-center items-center flex-shrink-0 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 py-2.5"
                 >
                   {t("landingMain.tertarik")}
                 </button>
               </div>
             </div>
           </div>
-          <div class="w-1/2 h-screen lg:block hidden bg-[url('/src/assets/armada/kapal2.jpeg')] "></div>
+          <div className="w-1/2 h-screen lg:block hidden bg-[url('/src/assets/armada/kapal2.jpeg')] "></div>
         </div>
       </main>
     </section>
